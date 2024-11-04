@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LOGO from "../images/Logo-white.png";
 
 function Footer() {
@@ -39,7 +40,7 @@ function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li className="mb-2">
-                  <a className="text-white ">My Account</a>
+                  <Link to={'/admin'} className="text-white ">Dashboard </Link>
                 </li>
                 <li className="mb-2">
                   <a className="text-white ">Login / Register</a>
