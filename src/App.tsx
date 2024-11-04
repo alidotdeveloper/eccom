@@ -29,7 +29,7 @@ const App: React.FC = () => {
           element: <Register />,
         },
         {
-          path: "/dashboard",
+          path: "/admin",
           element: <Products />,
         },
        
