@@ -12,9 +12,9 @@ const Products: React.FC<data> = (props) => {
     <>
       <div className="p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <div className="h-60 rounded w-full object-contain object-center mb-6 bg-transparent">
+          <div className="h-60 rounded w-full object-contain object-center mb-6 bg-transparent mix-blend-multiply">
             <img
-              className="h-full w-full object-contain"
+              className="h-full w-full object-contain mix-blend-multiply "
               src={props.image}
               alt="content"
             />
