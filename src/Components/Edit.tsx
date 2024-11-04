@@ -4,6 +4,7 @@ import { Formik, FormikHelpers, Field } from "formik";
 interface data {
   setModule: (value: boolean) => void;
   product?: any;
+  onUpdate: (productData: any) => void;
 }
 
 interface MyFormValues {
