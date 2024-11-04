@@ -23,7 +23,7 @@ const Header: React.FC = () => {
               Home
             </Link>
             <Link
-              to=""
+              to="/admin"
               className="mr-10   text-black font-normal hover:border-b-2 hover:border-black"
             >
               Contact
