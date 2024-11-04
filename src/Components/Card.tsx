@@ -10,7 +10,7 @@ interface data {
   Heading: String;
   Products?: Array<any>;
   Categories?: Array<any>;
-  name: String;
+  name?: String;
   rows?: number;
   cols?: number;
 }
